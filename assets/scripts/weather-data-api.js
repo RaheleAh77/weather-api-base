@@ -1,9 +1,9 @@
 const cityInput = document.querySelector("#weather-container__input");
 const cityTitle = document.querySelector(".city-country");
 const dateTxt = document.querySelector(".date");
-const weatherTemp = document.querySelector(".weather-tempreture");
+const weatherTemp = document.querySelector(".weather-temperature");
 const weatherDesc = document.querySelector(".weather-description");
-const minMaxTemp = document.querySelector(".mintem-maxtem");
+const minMaxTemp = document.querySelector(".min-max");
 
 cityInput.addEventListener("keyup" , e => {
     const cityInputValue = cityInput.value.toUpperCase().trim();
